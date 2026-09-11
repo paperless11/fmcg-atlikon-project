@@ -1,1 +1,3 @@
 # fmcg-atlikon-project
+
+This is a data engineering project I built on Databricks, following a hands-on course centered on a realistic acquisition scenario, a parent company, Atlikon, acquiring a smaller company, Sports Bar, that didn't have a structured data pipeline of its own. The goal was to build a pipeline that ingests the acquired company's raw data, cleans and standardizes it, and merges it into the parent company's existing reporting layer so both businesses could be viewed in one unified dashboard. I used PySpark and Delta Lake with a Bronze/Silver/Gold medallion architecture, and handled both a full historical load and ongoing daily incremental loads.
